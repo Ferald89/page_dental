@@ -2,6 +2,7 @@ import React from 'react';
 
 // Local
 import Navbar from './Navbar';
+import './styles/Navbar.css';
 
 function Layout(props){
     return (
