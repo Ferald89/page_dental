@@ -1,0 +1,41 @@
+.footer{
+    padding: 0.5rem 2rem;
+    background: #2f3241;
+    
+}
+
+.contact_item{
+    color: #fff;
+    /* border: 1px solid red; */
+    padding: 0.5rem 0;
+}
+
+.contact_item.i{
+    padding: 0.5rem 0.7rem;
+}
+
+.footer_container{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    background: #2f3241;
+
+}
+
+.contact_container{
+    background: #2f3241;
+
+}
+
+.social-link{
+    font-size: 40px;
+    padding: 0.5rem 0.5rem;
+    /* border: red solid 1px; */
+    text-decoration: none;
+    color: #fff;
+}
+
+.schedule_containe{
+    background: #2f3241;
+
+}

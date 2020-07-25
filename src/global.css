@@ -1,6 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gawpmy');
+  src:  url('fonts/icomoon.eot?gawpmy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gawpmy') format('truetype'),
+    url('fonts/icomoon.woff?gawpmy') format('woff'),
+    url('fonts/icomoon.svg?gawpmy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -14,6 +63,11 @@ body {
 
 h1 {
   font-family: 'Anton', sans-serif;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  color: #fff;
 }
 
 a.link-unstyled {
