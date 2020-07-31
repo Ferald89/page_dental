@@ -1,11 +1,22 @@
 .Navbar {
     width: 100%;
-    padding: 0.5rem 0;
+    padding: 20px 8em;
     background-color: #fff;
     border-bottom: 1px solid #eae9e9;
     margin-left: 0.5rem;
   }
   
+  .logo{
+    font-size: 2rem;
+  }
+
+  .Navbar_logo{
+    border: 1px solid red;
+  }
+
+  .Navbar_horario{
+    border: 1px solid red;
+  }
   .Navbar__brand {
     color: #ffffff;
   
